@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+    .button1{
+        border: 2px solid black;
+        color: rgb(0, 0, 0);
+        width: 75px;
+        height: 75px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 50px;
+        margin: 2px 0px;
+        cursor: pointer;
+        vertical-align: top;
+        
+    }
+    .button1:hover{ 
+        background: #cccccc;
+    }
+
+    .button2{
+        border: 1px solid black;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 2px 0px;
+        cursor: pointer;
+    }
+</style>
+</head>
+
+<body>
+    <button type="button" class="button1" id="B0" onclick="placeMark(0)"></button>
+    <button type="button" class="button1" id="B1" onclick="placeMark(1)"></button>
+    <button type="button" class="button1" id="B2" onclick="placeMark(2)"></button>
+    <h1 style="display: inline;">Welcome to TIC TAC TOE!</h1>
+    <br>
+    <button type="button" class="button1" id="B3" onclick="placeMark(3)"></button>
+    <button type="button" class="button1" id="B4" onclick="placeMark(4)"></button>
+    <button type="button" class="button1" id="B5" onclick="placeMark(5)"></button>
+    <h2 style="display:inline;">New Game?</h2>
+    <button type="button" class="button2" onclick="clearBoard()">Play</button>
+    <br>
+    <button type="button" class="button1" id="B6" onclick="placeMark(6)"></button>
+    <button type="button" class="button1" id="B7" onclick="placeMark(7)"></button>
+    <button type="button" class="button1" id="B8" onclick="placeMark(8)"></button>
+    <h2 style="display:inline;" id="gametext"></h2>
+
+
+    <script src="js/tictactoe.js"></script>
+
+</body>
+</html>
